@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Blogo</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="jquery.blogo.js"></script>
+    <script>
+      $(function(){
+        $("#posts").blogo({ feed: "http://feedproxy.google.com/TechCrunch" })
+      })
+    </script>
+  </head>
+  <body>
+    <div id="posts">
+    </div>
+  </body>
+</html>
